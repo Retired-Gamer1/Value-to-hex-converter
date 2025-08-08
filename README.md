@@ -48,4 +48,4 @@ double [range]
 
 
 
-⚠ Bug Note: If you discover incorrect results, especially with double hex generation, please report them to @Newbotprexh so I can keep track.
+⚠ Bug Note: If you discover incorrect results, especially with double hex generation, please report them to [@Newbotprexh](https://t.me/retiredgamermods) so I can keep track.
