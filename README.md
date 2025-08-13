@@ -1,51 +1,57 @@
-# Value-to-Hex Converter  
-**Version 1 – The Only Surviving Build**  
+# 📱 Value To Hex Converter
 
-### A Handy ARM Hex Conversion Tool for Android Modders  
-
-Hex Generator was my passion project—an Android app designed to simplify converting values into ARM machine code (hexadecimal) for both **ARM64-v8a** and **ARMv7a** architectures. It supports a variety of data types and even includes range generation features, making it useful for game modding, reverse engineering, or low-level tinkering.  
-
-Sadly, development hit a dead end when an unfixable bug corrupted the Java source code. This APK is the last surviving build, warts and all. While it’s not perfect, I’ve decided to release it in case others find it helpful.  
+**Turn numbers into ARM Assembly HEX instructions instantly!**  
+Perfect for reverse engineers, modders, and low-level developers who want fast, accurate value-to-hex conversions.
 
 ---
 
-### 🔧 **Features**  
-**Supported Architectures:**  
-- ARM64-v8a (AArch64)  
-- ARMv7a (AArch32)  
+## ✨ Features
 
-**Data Types:**  
-- Primitive types: `bool`, `int`, `float`, `short`, `long`, `double`  
-- Range generators for: `int`, `float`, `short`, `long`, `double`  
-
-**Use Cases:**  
-- Game value modding (e.g., patching memory values)  
-- ARM assembly debugging  
-- Quick hex reference for common data types  
+- 🔄 Supports **ARMv7** & **ARMv8 (arm64)** architectures  
+- 📊 Works with **Bool, Int, Float** (single values & ranges)  
+- ⛈ Instant encoding to **ARM assembly HEX instructions**  
+- 📎 **One-tap copy** to clipboard  
+- 📨 **Share** your results with ease  
+- 📌 **Smart UI animations** & modern material design  
 
 ---
 
-### ⚠ **Known Issues & Notes**  
-- **Double Precision Bug:** Some `double` conversions may produce incorrect hex values. If you encounter this, let me know [@Newbotprexh](https://t.me/retiredgamermods) so I can document it.  
-- **Legacy Code:** Since the source is lost, future updates are unlikely unless rewritten from scratch.  
-- **No UI Polish:** This was a functional tool first—don’t expect Material Design!  
+## ⚙️ How It Works
+
+1. **Pick your architecture** (ARMv7 or ARMv8)
+2. **Choose your data type** (Bool, Int, or Float)
+3. **Enter a single value** or define a **start–stop range**
+4. **Get ready-to-use HEX instructions** instantly
 
 ---
 
-### 💬 **Final Thoughts**  
-This project was a learning experience, and while it didn’t reach its full potential, I hope it saves someone time flipping through hex tables. If you find it useful (or spot a bug), I’d love to hear about it!  
+## 🚀 Ideal For
 
-**Note to Modders:** Always verify generated hex values with a disassembler—ARM alignment and endianness can sometimes trip up automated tools.  
+- Reverse engineering
+- Game memory patching
+- Mod development
+- Learning ARM assembly
 
----  
+---
 
-*(Written by a human who misses Java sometimes.)*  
+## 📦 Coming Soon
 
----  
+- Support for **Double** and other data types
+- Additional encoding modes & instructions
 
-This version:  
-- Feels more personal and conversational.  
-- Explains the context (why the source is lost).  
-- Adds practical use cases.  
-- Keeps the bug notice but softens the tone.  
-- Includes a disclaimer about verification (important for hex tools).  
+---
+
+## 👤 Developed By
+
+[@Newbotprexh](https://t.me/+EhWQcW8VNaI3NTRk)  
+Join the channel for updates, community discussions, and more.
+
+---
+
+## 📲 Download & Try
+
+> Available via Telegram channel: [Join Now](https://t.me/+EhWQcW8VNaI3NTRk)
+
+---
+
+> 💡 Open-source version coming soon (if applicable). Stay tuned!
